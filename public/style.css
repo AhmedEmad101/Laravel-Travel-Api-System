@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size:20px;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: black;
+    position: absolute;
+}
+.form_pox{
+    width: 380px;
+    height: 550px;
+    border-radius: 40px;
+    position: relative;
+    margin: 3% auto;
+    background:#fff;
+    overflow: hidden;
+    padding: 5px;
+}
+.button_pox{
+    width: 240px;
+    margin:20px auto;
+    position: relative;
+    box-shadow: 0 0 20px 9px #c746131f;
+    border-radius: 30px;
+}
+.toggle-button{
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+}
+#btn{
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.form{
+    top: 50px;
+    font-weight: 1000;
+    position: absolute;
+    margin: 35px 45px;
+    width: 280px;
+    transition: .5s;
+}
+#regester_form{
+    left: 400px;
+}
+#login_form{
+    left: 10px;
+    margin-top:60px ;
+}
+.input{
+    width: 100%;
+    padding: 10px 0;
+    margin: 7px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    border-radius: 4px;
+    background: transparent;
+}
+.input:hover{
+    transform: scale(1.1);
+    transition: .3s;
+}
+
+#code{
+    width: 25%;
+    margin-right: 4px;
+}
+#submit,#login{
+    width: 100%;
+    justify-content: center;
+    padding: 10px 30px;
+    margin: 30px 0;
+    outline: none;
+    cursor: pointer;
+    display: block;
+    border: 0;
+    border-radius: 30px 10px;
+    background: linear-gradient(to right,#ff105f,#ffad06);
+}
+label{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
